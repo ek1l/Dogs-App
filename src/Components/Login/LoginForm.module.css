@@ -7,6 +7,7 @@
   color: #666;
   padding: 0.5rem 0;
   line-height: 1;
+  transition: 0.3s;
 }
 
 .perdeu::after {
@@ -15,6 +16,10 @@
   width: 100%;
   background: currentColor;
   display: block;
+}
+
+.perdeu:hover {
+  color: black;
 }
 
 .cadastro {
