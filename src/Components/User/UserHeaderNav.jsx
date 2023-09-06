@@ -12,8 +12,6 @@ const UserHeaderNav = () => {
   const { userLogout } = React.useContext(UserContext);
   const mobile = useMedia('(max-width: 40rem)');
   const [mobileMenu, setMobileMenu] = React.useState(null);
-  console.log(mobile);
-  console.log(mobileMenu);
   const { pathname } = useLocation();
   React.useEffect(() => {
     setMobileMenu(false);

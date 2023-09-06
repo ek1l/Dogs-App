@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 const UserHeader = () => {
   const [title, setTitle] = React.useState(null);
   const { pathname } = useLocation();
-  console.log(pathname);
   React.useEffect(() => {
     if (pathname === '/conta/postar') setTitle('Postar');
     if (pathname === '/conta/estatisticas') setTitle('Estatísticas');
