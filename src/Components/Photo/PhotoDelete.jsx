@@ -12,6 +12,7 @@ const PhotoDelete = ({ id }) => {
       if (response.ok) window.location.reload();
     }
   }
+  
   return (
     <>
       {loading ? (
